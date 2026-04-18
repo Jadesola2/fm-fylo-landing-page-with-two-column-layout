@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+  <link rel="stylesheet" href="fylo.css"> 
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Raleway:wght@700&display=swap" rel = "stylesheet">
+  
+  <title>Frontend Mentor | Fylo landing page with two column layout</title>
+
+
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+    #body{
+      font-family: 'Open Sans', sans-serif;
+    }
+
+    #heading{
+      font-family: 'Poppins', sans-serif;
+    }
+  </style>
+</head>
+<body>
+    <div>
+        <nav class="navbar">
+            <div class="navdiv">
+                <img src="images/logo.svg" class="icon1" alt="icon">
+                <ul class="items">
+                    <li id="items heading"><a href="">Features</a></li>
+                    <li id="items heading"><a href="">Team</a></li>
+                    <li id="items heading"><a href="">Sign In</a></li>
+                </ul>
+        
+            </div>
+        </nav>     
+        <div class="content1">
+            <div class="col">
+                <p  class="title1" id="heading">All your files in one secure location,accessible anywhere</p>
+                <h6 class="text" id="body">Fylo stores your most important files in one secure location. Access them wherever you need, share and collaborate with friends, family, and co-workers. </h6>
+                <form id="form1">
+                    <input class="input" type="email" placeholder="Enter your email">
+                    <button class="btn" id="heading" type="submit">Get Started</button>
+                </form>
+            </div>
+            <div class="col">
+              <img class="image"src="images/illustration-2.svg" alt="illustration"></div>
+        </div>
+       
+        <picture>
+        <source srcset="images/bg-curve-desktop.svg" media="(min-width: 769px)">
+        <img class = "curve" alt="curve" src="images/bg-curve-mobile.svg">
+        </picture>
+        <div class="content2">
+            <div class="col imag">
+                <p class="title1" id="heading">Stay productive,wherever you are</p>
+                <h6 class="text" id="body">Never let location be an issue when accessing your files. Fylo has you covered for all of your file storage needs.</h6>
+                <h6 class="text" id="body">Securely share files and folders with friends, family and colleagues for live collaboration. No email attachments required!</h6>
+                <a class="see" href="" id="heading">See how Fylo works <img src="images/icon-arrow.svg"></a>
+                <div class="box">
+                    <img src="images/icon-quotes.svg" alt="quotes" style="padding-bottom: 20px;">
+                    <h6 class="texts" id="body">Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has become a well-oiled collaboration machine.</h6>
+                    <div>
+                        <img class="icon" src="images/avatar-testimonial.jpg" type="icon" alt="fine looking guy">
+                    </div>
+                    <h6 class="ceo" id="body">Founder & CEO, Huddie</h6>
+                    <h6 class="ceo" id="body"><b>Kyle Burton</b></h6>
+                    
+                    
+                </div>
+            </div>
+            <div class="col imag">
+              <img class="image"src="images/illustration-1.svg" alt="illustration"></div>
+        </div>
+        <div class="content3" id="con3">
+            <div class="col">
+                <h3 class="title1" id="heading">Get early access today</h3>
+                <h6 class="text" id="body">It only takes a minute to sign up and our free starter tier is extremely generous. If you have any questions, our support team would be happy to help you.</h6>
+            </div>
+            <div class="col">
+                <form id="form1">
+                    <input type="email" placeholder="email@example.com" class="input2 form">
+                <button class="btn2 form" id="heading" type="submit">Get Started For Free</button>
+                </form>
+                
+            </div>
+        </div>
+    </div>
+   
+    <footer>
+        <nav class="navbar2">
+            <img src="images/logo.svg" alt="fylo" style="padding-left: 30px; filter:  white;">
+            <div class="navdiv2">
+                <ul class="item">
+                    <li><img src="images/icon-phone.svg" id="body">Phone:+1-543-123-4567</li>
+                    <li><img src="images/icon-email.svg" id="body">example@fylo.com</li>
+                </ul>
+                <ul class="items">
+                    <li><a href="" id="body">About Us</a></li>
+                    <li><a href="" id="body">Jobs</a></li>
+                    <li><a href="" id="body">Press</a></li>
+                    <li><a href="" id="body">Blog</a></li>
+                </ul>
+                <ul class="items">
+                    <li><a href="" id="body">Contact Us</a></li>
+                    <li><a href="" id="body">Terms</a></li>
+                    <li><a href="" id="body">Privacy</a></li>
+                </ul>
+
+                <ul class="items2">
+                    <li><a href=""><i class="fa-brands fa-facebook"></i></a></li>
+                    <li class="icon2"><a href=""><i class="fa-brands fa-square-twitter"></i></a></li>
+                    <li class="icon2"><a href=""><i class="fa-brands fa-square-instagram"></i></a></li>
+                </ul>
+            </div>
+        </nav>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,412 @@
+html,body{
+    background-color: white;
+    width:100%;
+    padding: 0;
+    margin: 0;
+}
+ul{
+    list-style: none;
+}
+.navbar{
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color: white;
+}
+
+a{
+    text-decoration: none;
+}
+
+.content3 input, .content3 button{
+    border-radius: 3px;
+    border: none;
+}
+
+
+.navdiv{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color:black;
+
+}
+
+.navdiv ul li{
+    list-style: none;
+    display: inline-block;
+   gap: 40px;
+}
+
+.navbar2{
+    padding-left: 15px;
+    padding-right: 15px;
+    color: white;
+    font-size: medium;
+}
+
+
+
+.navdiv2{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.navdiv2 ul li a {
+    color: white;
+
+}
+
+.navdiv2 .items li {
+    list-style: none;
+    display: block;
+    gap: 20px;
+    color: white;
+}
+
+.navdiv2 .items2 li {
+    list-style: none;
+    display: inline-block;
+    gap: 30px;
+    color: white;
+    padding-left: 10px;
+    align-items: center;
+    justify-content: left;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+.curve{
+    width: 100%;
+    margin-bottom: 0px;
+}
+
+.see:active{
+    color: hsl(170, 55%, 50%);
+    text-decoration-color: hsl(170, 55%, 50%);
+}
+
+.item li img{
+    padding-right: 18px;
+}
+
+.see{
+    text-decoration: underline;
+    text-decoration-color:hsl(170, 45%, 43%) ;
+    color:  hsl(170, 50%, 53%);
+    text-underline-offset: 7px;
+}
+.navdiv ul li a{
+    color: black;
+    font-size: 22px;
+    margin-right: 45px;
+}
+
+.ceo{
+    margin-top: -60px;
+    margin-left: 60px;
+}
+.content1{
+    font-family: OpenSans;
+    display: flex;
+    width: 100%;
+    margin: none;
+    align-items: center;
+    justify-content: space-between;
+    padding: 35px;
+    background-color: white;
+    margin-top: 5px;
+    margin-top: 0px;
+}
+
+.box{
+    background-color: white;
+    width: 400px;
+    height: auto;
+    margin-bottom: 65px;
+    border-radius: 15px;
+    margin-top: 20px;
+    align-content: left;
+    box-shadow: 1px 1px 5px hsl(0, 0%, 75%) ;
+    padding: 35px;
+}
+.content3{
+    font-family: OpenSans;
+    background-color: hsl(238, 22%, 44%);
+    display: flex;
+    width: 100%;
+    margin: none; 
+    align-items: center; 
+    justify-content: space-between;
+    padding: 25px;
+    margin-top: none;
+    color: white;
+    
+}
+
+input{
+    color: hsl(240, 1%, 85%);
+    font-weight: 100;
+    
+}
+
+.content3 button{
+    margin-top: 10px;
+}
+
+.col{
+    width: 100%;
+    margin: 0px;
+}
+#con3 .col{
+    width: 100%;
+    margin: 0px;
+}
+
+#con3 .col .form{
+    margin-left: 40%;
+}
+
+.text{
+    font-size: 20px;
+    font-weight: 500;
+}
+.title1{
+    font-size: 35px;
+    font-weight: bold;
+}
+
+#con3{
+    background-color:  hsl(238, 22%, 44%);
+    height: auto;
+    font-family: OpenSans;
+    display: flex;
+    width: 100%;
+    margin: none;
+    align-items: center;
+    justify-content: space-between;
+    padding: 35px;
+}
+.content2{
+    font-family: OpenSans;
+    display: flex;
+    width: 100%;
+    margin: none;
+    align-items: center;
+    justify-content: space-between;
+    padding: 35px;
+    margin-top: -10px;
+    background-color:hsl(240, 75%, 98%);
+    height: auto;
+}
+
+.icon2{
+    border: 3px;
+    border-radius: 50%;
+}
+.icon{
+    border: 3px;
+    border-radius: 50%;
+    display: inline-block;
+    /* padding-left: 30px; */
+    text-align: left;
+    padding: none;
+    margin-left: -35px;
+    margin-top: -15%;
+    transform: scale(0.3);
+    
+}
+.texts{
+    margin-top: -10px;
+    font-size: large;
+    font-weight: 500;
+}
+footer{
+    background-color: hsl(243, 87%, 12%);
+    color: white;
+    height: auto;
+    width:100%;
+    padding: 55px 0;
+    margin: 0px;
+    justify-self: center;
+    font-size: 25px;
+}
+
+.btn{
+    background-color:hsl(224, 96%, 55%) ;
+    color: white;
+    padding:10px 30px;
+    border:none;
+    box-sizing: border-box;
+    width: 140px;
+    height: 32px;
+    box-shadow: 1px 1px 5px hsl(0, 0%, 75%);
+    
+
+}
+
+.content1 input{
+    border-width: 1.5px;
+    border-color: hsl(243, 87%, 12%);
+}
+
+.btn:active{
+    cursor: pointer;
+    background-color: hsl(224, 65%, 60%);
+}
+
+.btn2:active{
+    cursor: pointer;
+    background-color: hsl(224, 65%, 60%) ;
+}
+
+.btn2{
+    background-color:hsl(224, 96%, 55%) ;
+    color: white;
+    padding:5px 30px;
+    border:none;
+    box-sizing: border-box;
+    width: 180px;
+    font-size: 13px;
+
+
+}
+
+.input2{
+    width:250px;
+    height:30px
+}
+
+.input{
+    width:230px;
+    height: 30px;
+}
+
+
+.items2 li a{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border-color: white;
+}
+
+.content3 .col{
+    padding-right: 30px;
+}
+
+@media (max-width:800px) {
+    .content3{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .content3 form {
+        text-align: center;
+    }
+
+    .navdiv2{
+        display: block;
+    }
+    .navbar2{  
+        padding: 10px;
+        font-size: large;
+        
+    }
+
+    .navbar2 > *{
+       
+    }
+    body{
+        width:100%;
+    }
+    .navdiv{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        color:black;
+    }
+    .content1{
+        display: block;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .see{
+        display:block;
+        padding-bottom: 50px ;
+        padding-top: 10px;
+        text-align: center;
+    }
+
+    .box{
+        margin: auto;
+    }
+
+    #con3 .col .form {
+        margin-left:0 ;
+    }
+
+    .content3 input, .content3 button{
+        width: 300px;
+        height: 30px;
+    }
+
+    .navdiv2 ul li{
+        padding-bottom: 20px;
+    }
+
+    .items2{
+        text-align: center;
+    }
+
+
+    .content2{
+        display: grid;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .content1{
+        text-align: center;
+    }
+
+    
+
+    .content1 input, .content1 button{
+        width: 300px;
+        height: 40px;
+        margin-bottom: 15px;
+        border-radius: 6px;
+    }
+
+    footer{
+        background-color: hsl(243, 87%, 12%);
+        color: white;
+        height: auto;
+    }
+    
+}
+
+ div{
+    width: 100%;
+    box-sizing: border-box;
+    
+}
+
+div img{
+    max-width: 100%;
+    height: auto;
+    display: block; 
+} 
+
+ul li img, a img{
+    display: inline-block;
+}
+
